@@ -1,0 +1,1 @@
+vcftools --vcf ../input.recode.vcf --weir-fst-pop keep_SJY1.list --weir-fst-pop keep_SJY4.list  --fst-window-size 2000 --fst-window-step 2000 --out SJY1_SJY4_fst_2k_2k
